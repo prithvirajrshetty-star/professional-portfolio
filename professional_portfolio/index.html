@@ -1,0 +1,620 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#071321">
+
+    <title>Prithviraj R Shetty | Marine Engineering</title>
+
+    <meta name="description"
+          content="Explore the portfolio, projects, education and technical interests of Prithviraj R Shetty, a Marine Engineering student.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <!-- Navigation -->
+           <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Interests</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Marine Engineering Homepage -->
+        <section class="hero" id="home">
+
+
+            <div class="hero-content">
+                <p class="eyebrow">
+                    MARINE ENGINEERING PORTFOLIO
+                </p>
+
+                <h1>
+                    Exploring the
+                    <span>World of Ships</span>
+                    & Engineering.
+                </h1>
+
+                <h2>
+                    Hi, I'm Prithviraj R Shetty.
+                </h2>
+
+                <p class="hero-description">
+                    I'm a first-year B.Tech Marine Engineering student
+                    passionate about ship machinery, marine technology,
+                    engineering design and learning how the maritime
+                    world works.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">
+                        Explore My Projects <span>↗</span>
+                    </a>
+
+                    <a href="#about" class="btn secondary-btn">
+                        Discover My Journey
+                    </a>
+                </div>
+
+                <div class="hero-tags">
+                    <span>⚓ Marine Engineering</span>
+                    <span>⚙️ Ship Machinery</span>
+                    <span>💻 Technology</span>
+                </div>
+            </div>
+
+            <!-- Original ship illustration built into the HTML -->
+            <div class="hero-visual">
+
+                <div class="visual-label">
+                    <span class="live-dot"></span>
+                    MARITIME · ENGINEERING · FUTURE
+                </div>
+
+                <div class="ship-scene">
+
+                    <div class="scene-orbit orbit-one"></div>
+                    <div class="scene-orbit orbit-two"></div>
+
+                    <svg class="ship-svg"
+                         viewBox="0 0 640 430"
+                         xmlns="http://www.w3.org/2000/svg"
+                         role="img"
+                         aria-label="Illustration of a container ship sailing across the ocean">
+
+                        <defs>
+                            <linearGradient id="sky"
+                                x1="0" y1="0" x2="0" y2="1">
+                                <stop offset="0%" stop-color="#123b61"/>
+                                <stop offset="100%" stop-color="#071b30"/>
+                            </linearGradient>
+
+                            <linearGradient id="ocean"
+                                x1="0" y1="0" x2="0" y2="1">
+                                <stop offset="0%" stop-color="#117aab"/>
+                                <stop offset="100%" stop-color="#061629"/>
+                            </linearGradient>
+
+                            <linearGradient id="hull"
+                                x1="0" y1="0" x2="0" y2="1">
+                                <stop offset="0%" stop-color="#f07b4d"/>
+                                <stop offset="100%" stop-color="#9c3f39"/>
+                            </linearGradient>
+
+                            <linearGradient id="deck"
+                                x1="0" y1="0" x2="1" y2="0">
+                                <stop offset="0%" stop-color="#d8e9f3"/>
+                                <stop offset="100%" stop-color="#739bb8"/>
+                            </linearGradient>
+
+                            <clipPath id="scene-clip">
+                                <rect x="0" y="0" width="640" height="430" rx="22"/>
+                            </clipPath>
+                        </defs>
+
+                        <g clip-path="url(#scene-clip)">
+
+                            <rect width="640" height="430" fill="url(#sky)"/>
+
+                            <!-- Stars -->
+                            <g fill="#d6f4ff" opacity=".8">
+                                <circle cx="82" cy="53" r="2"/>
+                                <circle cx="132" cy="91" r="1.5"/>
+                                <circle cx="215" cy="46" r="2"/>
+                                <circle cx="300" cy="79" r="1.5"/>
+                                <circle cx="423" cy="44" r="2"/>
+                                <circle cx="534" cy="85" r="1.5"/>
+                                <circle cx="575" cy="49" r="2"/>
+                                <circle cx="482" cy="119" r="1.5"/>
+                            </g>
+
+                            <!-- Moon -->
+                            <circle cx="512" cy="105" r="36"
+                                    fill="#9be7ff" opacity=".08"/>
+                            <circle cx="512" cy="105" r="24"
+                                    fill="#c5f0ff" opacity=".9"/>
+
+                            <!-- Distant horizon -->
+                            <path d="M0 215 Q90 195 180 215 T360 212 T640 205
+                                     L640 430 L0 430 Z"
+                                  fill="#0b2a43"/>
+
+                            <!-- Ocean -->
+                            <path d="M0 246 Q90 230 170 249 T340 243
+                                     T500 247 T640 236
+                                     L640 430 L0 430 Z"
+                                  fill="url(#ocean)"/>
+
+                            <!-- Ship hull -->
+                            <path d="M76 253 L572 253 L524 322
+                                     Q516 334 494 334 L148 334
+                                     Q127 334 115 316 Z"
+                                  fill="url(#hull)"
+                                  stroke="#ffb18a"
+                                  stroke-width="2"/>
+
+                            <!-- Hull waterline -->
+                            <path d="M95 276 L554 276"
+                                  stroke="#ffd3b5"
+                                  stroke-width="3"
+                                  opacity=".8"/>
+
+                            <!-- Deck -->
+                            <path d="M110 245 L552 245 L572 253
+                                     L76 253 Z"
+                                  fill="url(#deck)"/>
+
+                            <!-- Container row: lower -->
+                            <g stroke="#071b30" stroke-width="2">
+                                <rect x="158" y="205" width="68" height="40"
+                                      rx="2" fill="#ef8758"/>
+                                <rect x="229" y="205" width="68" height="40"
+                                      rx="2" fill="#4b8fbd"/>
+                                <rect x="300" y="205" width="68" height="40"
+                                      rx="2" fill="#e2b75d"/>
+                                <rect x="371" y="205" width="68" height="40"
+                                      rx="2" fill="#3e9d94"/>
+                                <rect x="442" y="205" width="68" height="40"
+                                      rx="2" fill="#cf6c59"/>
+
+                                <!-- Container row: upper -->
+                                <rect x="174" y="166" width="68" height="37"
+                                      rx="2" fill="#3d91bc"/>
+                                <rect x="245" y="166" width="68" height="37"
+                                      rx="2" fill="#d76c51"/>
+                                <rect x="316" y="166" width="68" height="37"
+                                      rx="2" fill="#4b9d95"/>
+                                <rect x="387" y="166" width="68" height="37"
+                                      rx="2" fill="#e4b95f"/>
+
+                                <!-- Top containers -->
+                                <rect x="211" y="130" width="68" height="34"
+                                      rx="2" fill="#e0b85d"/>
+                                <rect x="282" y="130" width="68" height="34"
+                                      rx="2" fill="#3b8eb9"/>
+                                <rect x="353" y="130" width="68" height="34"
+                                      rx="2" fill="#df7656"/>
+                            </g>
+
+                            <!-- Container ribs -->
+                            <g stroke="#071b30" stroke-width="1"
+                               opacity=".45">
+                                <path d="M170 207 V242 M184 207 V242 M198 207 V242
+                                         M241 207 V242 M255 207 V242 M269 207 V242
+                                         M312 207 V242 M326 207 V242 M340 207 V242
+                                         M383 207 V242 M397 207 V242 M411 207 V242
+                                         M454 207 V242 M468 207 V242 M482 207 V242"/>
+
+                                <path d="M186 168 V201 M200 168 V201 M214 168 V201
+                                         M257 168 V201 M271 168 V201 M285 168 V201
+                                         M328 168 V201 M342 168 V201 M356 168 V201
+                                         M399 168 V201 M413 168 V201 M427 168 V201"/>
+                            </g>
+
+                            <!-- Bridge -->
+                            <rect x="504" y="188" width="36" height="57"
+                                  fill="#d7e8f0"
+                                  stroke="#071b30" stroke-width="2"/>
+                            <rect x="511" y="197" width="9" height="8"
+                                  fill="#38bdf8"/>
+                            <rect x="524" y="197" width="9" height="8"
+                                  fill="#38bdf8"/>
+                            <rect x="511" y="211" width="9" height="8"
+                                  fill="#38bdf8"/>
+                            <rect x="524" y="211" width="9" height="8"
+                                  fill="#38bdf8"/>
+                            <rect x="515" y="171" width="5" height="17"
+                                  fill="#c5e3f0"/>
+                            <path d="M517 172 L517 157 L530 166 L517 166"
+                                  fill="#42c8ff"/>
+
+                            <!-- Bow details -->
+                            <path d="M89 269 L108 276 L118 302"
+                                  fill="none"
+                                  stroke="#ffd3b5"
+                                  stroke-width="2"
+                                  opacity=".7"/>
+
+                            <!-- Ocean waves -->
+                            <g fill="none" stroke="#65d9ff"
+                               stroke-width="2.5"
+                               stroke-linecap="round">
+                                <path d="M24 294 Q42 284 60 294 T96 294"/>
+                                <path d="M380 300 Q405 289 430 300 T480 300"/>
+                                <path d="M160 352 Q187 340 214 352 T268 352"/>
+                                <path d="M392 372 Q418 360 444 372 T496 372"/>
+                                <path d="M40 394 Q65 384 90 394 T140 394"/>
+                                <path d="M500 402 Q525 392 550 402 T600 402"/>
+                            </g>
+
+                            <!-- Ocean reflection -->
+                            <path d="M190 337 L460 337 L425 344 L217 344 Z"
+                                  fill="#55d5ff" opacity=".15"/>
+                        </g>
+                    </svg>
+
+                    <div class="scene-caption">
+                        <span class="caption-icon">⚓</span>
+                        <div>
+                            <strong>Engineering Beyond the Horizon</strong>
+                            <span>Discover · Design · Develop</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Your real profile photo -->
+                <div class="profile-mini">
+                    <img src="profile.jpg"
+                         alt="Prithviraj R Shetty"
+                         class="profile-photo">
+
+                    <div>
+                        <strong>Prithviraj R Shetty</strong>
+                        <span>Marine Engineering Student</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="hero-bottom">
+                <span>01 / INTRODUCTION</span>
+                <a href="#about">SCROLL TO EXPLORE ↓</a>
+            </div>
+        </section>
+
+
+<!-- MARITIME IST DIGITAL CLOCK -->
+<div class="maritime-clock" id="maritimeClock">
+    <div class="clock-heading">
+        <span class="clock-status-dot"></span>
+        <span>VESSEL TIME SYSTEM</span>
+        <span class="clock-live-label">LIVE</span>
+    </div>
+
+    <div class="clock-main">
+        <div class="clock-icon">◷</div>
+        <div class="clock-reading">
+            <div class="clock-time" id="istTime">00:00:00</div>
+            <div class="clock-date" id="istDate">Loading date...</div>
+        </div>
+    </div>
+
+    <div class="clock-footer">
+        <span>INDIAN STANDARD TIME</span>
+        <span>UTC +05:30</span>
+    </div>
+</div>
+
+
+        <!-- About -->
+        <section class="section" id="about">
+            <p class="eyebrow">01 — ABOUT ME</p>
+            <h2 class="section-title">
+                Building my future in the
+                <span>maritime world.</span>
+            </h2>
+
+            <div class="about-layout">
+                <div class="about-card">
+                    <span class="card-symbol">⚓</span>
+                    <h3>My Journey</h3>
+                    <p>
+                        I am a first-year B.Tech Marine Engineering
+                        student at Srinivas Institute of Technology,
+                        Valachil, Karnataka.
+                    </p>
+                    <p>
+                        I am beginning my journey into ship machinery,
+                        marine systems and engineering technology.
+                        I want to develop my knowledge through practical
+                        learning, technical projects and continuous
+                        improvement.
+                    </p>
+                </div>
+
+                <div class="about-highlight">
+                    <span class="eyebrow">MY DIRECTION</span>
+                    <h3>Curiosity today.<br>Engineering tomorrow.</h3>
+                    <p>
+                        Learning the fundamentals that keep ships
+                        operating safely and efficiently.
+                    </p>
+                    <div class="highlight-line"></div>
+                    <span class="small-label">
+                        LEARN · PRACTISE · IMPROVE
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interests -->
+        <section class="section section-alt" id="skills">
+            <p class="eyebrow">02 — TECHNICAL INTERESTS</p>
+            <h2 class="section-title">
+                Areas I want to <span>explore.</span>
+            </h2>
+
+            <p class="section-intro">
+                These are my learning interests as I develop my
+                engineering knowledge.
+            </p>
+
+            <div class="interest-grid">
+                <article class="interest-card">
+                    <span class="interest-icon">⚙</span>
+                    <span class="interest-number">01</span>
+                    <h3>Marine Machinery</h3>
+                    <p>
+                        Learning about marine engines, auxiliary
+                        machinery and shipboard mechanical systems.
+                    </p>
+                </article>
+
+                <article class="interest-card">
+                    <span class="interest-icon">🌊</span>
+                    <span class="interest-number">02</span>
+                    <h3>Ship Systems</h3>
+                    <p>
+                        Exploring propulsion, pumps, piping and
+                        essential onboard systems.
+                    </p>
+                </article>
+
+                <article class="interest-card">
+                    <span class="interest-icon">📐</span>
+                    <span class="interest-number">03</span>
+                    <h3>CAD & Design</h3>
+                    <p>
+                        Interested in technical drawings, 3D models
+                        and engineering design software.
+                    </p>
+                </article>
+
+                <article class="interest-card">
+                    <span class="interest-icon">💻</span>
+                    <span class="interest-number">04</span>
+                    <h3>Digital Technology</h3>
+                    <p>
+                        Building web projects and developing
+                        computer-based problem-solving skills.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section" id="projects">
+            <p class="eyebrow">03 — MY WORK</p>
+            <h2 class="section-title">
+                Projects & <span>experiments.</span>
+            </h2>
+
+            <p class="section-intro">
+                A collection of projects and ideas I am developing
+                as a student.
+            </p>
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+                    <div class="project-top">
+                        <span class="project-index">PROJECT / 01</span>
+                        <span class="project-icon">◈</span>
+                    </div>
+                    <h3>Smart Attendance System</h3>
+                    <p>
+                        A student web project concept for viewing
+                        attendance records and monitoring attendance
+                        percentages.
+                    </p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <span class="project-status">
+                        Personal Learning Project
+                    </span>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-top">
+                        <span class="project-index">PROJECT / 02</span>
+                        <span class="project-icon">⌘</span>
+                    </div>
+                    <h3>Personal Portfolio</h3>
+                    <p>
+                        This website presents my education, technical
+                        interests, learning journey and future projects.
+                    </p>
+                    <div class="project-tags">
+                        <span>Web Design</span>
+                        <span>Responsive UI</span>
+                    </div>
+                    <span class="project-status">
+                        Portfolio Project
+                    </span>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-top">
+                        <span class="project-index">PROJECT / 03</span>
+                        <span class="project-icon">⚓</span>
+                    </div>
+                    <h3>Marine Engineering Research</h3>
+                    <p>
+                        Exploring the basic principles of marine
+                        engines, ship propulsion and onboard machinery.
+                    </p>
+                    <div class="project-tags">
+                        <span>Research</span>
+                        <span>Engineering</span>
+                    </div>
+                    <span class="project-status">
+                        Learning & Exploration
+                    </span>
+                </article>
+
+            </div>
+
+            <p class="disclaimer">
+                Project descriptions represent learning work and
+                interests. Update them as you complete and document
+                your actual projects.
+            </p>
+        </section>
+
+        <!-- Education -->
+
+        <section class="section section-alt" id="education">
+
+            <p class="eyebrow">04 — EDUCATION</p>
+            <h2 class="section-title">
+                My academic <span>journey.</span>
+            </h2>
+
+            <div class="education-card">
+                <div class="education-marker"></div>
+                <div class="education-content">
+                    <span class="education-label">CURRENTLY STUDYING</span>
+                    <h3>B.Tech in Marine Engineering</h3>
+                    <p class="college-name">
+                        Srinivas Institute of Technology
+                    </p>
+                    <p class="education-detail">
+                        Valachil, Karnataka, India
+                    </p>
+                    <p class="education-detail">
+                        First Year
+                    </p>
+                </div>
+                <span class="education-symbol">⚓</span>
+            </div>
+        </section>
+
+
+        <!-- Contact -->
+        <section class="section contact-section" id="contact">
+            <p class="eyebrow">05 — GET IN TOUCH</p>
+            <h2 class="section-title">
+                Let's connect and <span>learn.</span>
+            </h2>
+
+            <p class="contact-description">
+                Interested in marine engineering, technology,
+                student projects or learning opportunities?
+                Feel free to connect.
+            </p>
+
+            <div class="contact-links">
+                <!-- Replace with your real email -->
+                <a href="mailto:your-email@example.com"
+                   class="contact-link">
+                    <span>✉</span>
+                    Email Me
+                    <span class="link-arrow">↗</span>
+                </a>
+
+                <!-- Replace # with your LinkedIn profile URL -->
+                <a href="#"
+                   class="contact-link"
+                   data-placeholder-link>
+                    <span>in</span>
+                    LinkedIn
+                    <span class="link-arrow">↗</span>
+                </a>
+
+                <!-- Replace # with your GitHub profile URL -->
+                <a href="#"
+                   class="contact-link"
+                   data-placeholder-link>
+                    <span>⌘</span>
+                    GitHub
+                    <span class="link-arrow">↗</span>
+                </a>
+            </div>
+
+            <p class="contact-note">
+                Update the placeholder email and profile links
+                before sharing this website publicly.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="#home" class="footer-logo">PR<span>.</span></a>
+        <p>
+            © <span id="current-year"></span>
+            Prithviraj R Shetty
+        </p>
+        <a href="#home" class="back-top">BACK TO TOP ↑</a>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <script>
+        document.getElementById("current-year").textContent =
+            new Date().getFullYear();
+
+        document.querySelectorAll("[data-placeholder-link]").forEach(
+            function (link) {
+                link.addEventListener("click", function (event) {
+                    if (link.getAttribute("href") === "#") {
+                        event.preventDefault();
+                        alert("Add your real profile URL in index.html first.");
+                    }
+                });
+            }
+        );
+    </script>
+
+</body>
+</html>
+
+
+<!-- DARK / LIGHT MODE TOGGLE -->
+<button
+    type="button"
+    id="themeToggle"
+    class="theme-toggle"
+    aria-label="Switch to light mode"
+    aria-pressed="false">
+    <span id="themeIcon" aria-hidden="true">☀</span>
+    <span id="themeLabel">Light Mode</span>
+</button>
+
+
+
